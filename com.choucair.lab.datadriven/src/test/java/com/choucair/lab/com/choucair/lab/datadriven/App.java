@@ -17,7 +17,7 @@ public class App
     	
     		try {
     			List<TransaccionModel> DatosTransaccionList= new ArrayList<TransaccionModel>();
-    			CSVReader dtdTransaccion = new CSVReader(new FileReader("src/test/resources/datadriven/datadriventransaccion.csv"), ',');
+    			CSVReader dtdTransaccion = new CSVReader(new FileReader("src/test/resources/datadriven/datadriventransaccion.csv"), ';');
     			String[] record = null;
     			
     			while((record = dtdTransaccion.readNext()) != null) {
