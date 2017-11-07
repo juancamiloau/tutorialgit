@@ -27,7 +27,7 @@ public class App
     				transaccionModel.setStrImporte(record[2]);
     				DatosTransaccionList.add(transaccionModel);				
     			}
-    			
+    			//Agregue este comentario para demostrar la fusión
     			for(int i = 0; i < DatosTransaccionList.size();i++) {
     				System.out.println(DatosTransaccionList.get(i).getStrCuentaOrigen() + DatosTransaccionList.get(i).getStrCuentaDestino() + DatosTransaccionList.get(i).getStrImporte());
     			}
